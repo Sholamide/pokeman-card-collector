@@ -1,50 +1,83 @@
-# Welcome to your Expo app 👋
+```md
+# Pokémon Card Collector - Margelo React Native Challenge
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to my submission for the Margelo React Native Developer Challenge. This app allows users to discover and collect Pokémon cards through an interactive swipeable interface.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **Card Swiping Interface**: Tinder-like swipe mechanics to browse through Pokémon
+- **Collection Management**: Save your favorite Pokémon to your personal deck
+- **Beautiful Animations**: Smooth transitions and visual feedback during interactions
+- **Pokémon Stats Visualization**: Dynamic circular progress charts for Pokémon experience
 
+## Tech Stack
+
+- **React Native & Expo**: Core framework
+- **Reanimated**: Fluid animations for card swiping and transitions
+- **React Native Gesture Handler**: Touch interactions and swipe mechanics
+- **React Native Skia**: Rendering experience charts and visual elements
+- **React Navigation**: Tab-based navigation between screens
+- **Zustand**: State management for the Pokémon collection
+- **PokeAPI**: Data source for Pokémon information
+
+## Screens
+
+### 1. All Pokémon (Card Stack)
+- Displays Pokémon cards one at a time in a swipeable stack
+- Swipe right to add to your deck
+- Visual feedback during swipe with rotation effects and color indicators
+- Experience stats displayed in an animated circular chart
+
+### 2. My Deck (Collection)
+- Grid view of all collected Pokémon
+- Tap to view detailed information
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v14 or newer)
+- npm or yarn
+- iOS Simulator or Android Emulator (or physical device)
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/yourusername/pokemon-card-collector.git
+   cd pokemon-card-collector
+   ```
+
+2. Install dependencies
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. Start the development server
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. Open the app on your preferred platform:
+   - Press `i` for iOS simulator
+   - Press `a` for Android emulator
+   - Scan the QR code with Expo Go on your device
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Implementation Details
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Animations
+- Card rotation during swipe uses Reanimated's interpolation
+- Experience chart animations leveraging Skia for smooth rendering
+- Transition effects between screens and card states
 
-## Get a fresh project
+### State Management
+- Zustand store for managing the collection of Pokémon
+- Persistent storage to maintain the deck between app sessions
 
-When you're ready, run:
+### API Integration
+- Fetches Pokémon data from PokeAPI with proper error handling and caching
+- Manages loading states for a smooth user experience
 
-```bash
-npm run reset-project
+## Demo
+
+A demo video of the application can be found in the root directory (demo.mp4).
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
