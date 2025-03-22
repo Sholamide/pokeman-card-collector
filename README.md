@@ -1,4 +1,4 @@
-```md
+
 # Pokémon Card Collector - Margelo React Native Challenge
 
 Welcome to my submission for the Margelo React Native Developer Challenge. This app allows users to discover and collect Pokémon cards through an interactive swipeable interface.
@@ -80,4 +80,3 @@ Welcome to my submission for the Margelo React Native Developer Challenge. This 
 ## Demo
 
 A demo video of the application can be found in the root directory (demo.mp4).
-```
