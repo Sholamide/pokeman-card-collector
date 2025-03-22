@@ -29,8 +29,8 @@ Welcome to my submission for the Margelo React Native Developer Challenge. This 
 - Experience stats displayed in an animated circular chart
 
 ### 2. My Deck (Collection)
-- Grid view of all collected Pokémon
-- Tap to view detailed information
+- List view of all collected Pokémon
+  
 
 ## Getting Started
 
@@ -79,4 +79,6 @@ Welcome to my submission for the Margelo React Native Developer Challenge. This 
 
 ## Demo
 
-A demo video of the application can be found in the root directory (demo.mp4).
+https://github.com/user-attachments/assets/58ae120b-6913-41e9-9d1b-5208e68e30bc
+
+
